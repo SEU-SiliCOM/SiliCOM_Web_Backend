@@ -1,0 +1,29 @@
+#全局信息
+port = "8000"
+rm-rf = false 
+bonusPath = "" 
+
+[email]
+address = "" #邮件地址
+name = "SQHL" 
+host = "smtp.163.com" #邮件服务器
+port = 465 #邮件服务器端口
+password = "" #邮件密码
+
+[mysql]
+username = "root" 
+password = ""  #数据库密码
+ip = "localhost" #数据库ip
+port = "3306" #数据库端口
+database = "" #数据库名称
+
+[upload]
+path = "./image/" 
+accessUrl = "http://localhost:8000/image/"
+
+[jwt]
+key = "silicom" #jwt加密key
+
+[code2Session]
+appId = "wx697c726e0256df26"
+appSecret = "52c1944c816166f0a2d302327c068731"
